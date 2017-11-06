@@ -51,7 +51,7 @@ a:hover {
      text-align: center;
  }
 .container{
-   max-width: 1400px;
+   max-width: 1960px;
     padding-left: 10px;
 }
 @media only screen and (min-width:768px) {
@@ -82,7 +82,7 @@ a:hover {
 margin-top: 90px;
 }
 .header-background{
-    background-color: #0BBF59;
+
     background-image: url(../Icons/me.JPG);
     background-repeat: no-repeat;
     background-size: 115%;
@@ -165,9 +165,7 @@ margin-top: 90px;
 .skill-bar{
     margin:32px 0 0 32px;
 }
-.contact_table_row{
-    display:block;
-}
+
 
 #js, #ph, #aj{
     width: 88%;
@@ -251,3 +249,7 @@ margin-top: 90px;
     background-color: white;
     z-index: 1000;
     }
+    
+.col-sm-4, .col-md-5, .col-lg-5{
+    padding-right: 0;
+}
