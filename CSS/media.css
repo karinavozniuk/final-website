@@ -1,0 +1,84 @@
+@media only screen and (min-width:768px) {
+
+     .header-background, section{
+        margin-bottom: 48px;
+    }
+    
+    .header-background{
+        padding: 0 16px 128px ;
+    }
+
+    
+    #contact-btn{
+        position: relative;
+        width:208px;
+        height: auto;
+    }
+
+    .portfolio-item {
+        margin-bottom: 0;
+    }
+    
+    .skills{
+        padding: 48px;
+    }
+    
+}
+
+@media only screen and (min-width:960px) {
+    
+    h1{
+        font-size:35px;
+        line-height: 55px;
+    }
+    .person{
+        padding-top: 150px;
+
+    }
+     #contact-btn{
+        position: relative;
+        width:208px;
+        height: auto;
+        
+    }
+    .header-background, section{
+        margin-bottom: 64px;
+    }
+    .header-container{
+        padding:20px 32px 16px 48px;
+        display: flex;
+        justify-content:flex-end;
+    }
+    .header-no-stick {
+            display: block;
+        padding: 16px;
+
+        justify-content:space-between;
+        text-align: center;
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 1000;
+                margin-bottom: 50px;
+    }
+.header-no-stick > .container > .name{
+    display: block;
+    position: fixed;
+    top:20px;
+        left: 80px;
+        color:white;
+
+}
+
+.portfolio-item{
+     height: 480px;   
+    }
+    
+    .skills{
+        padding: 64px;
+    }
+    
+    
+}
