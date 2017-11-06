@@ -34,6 +34,9 @@ h3{
 a {
      color:#0BBF59;
  }
+a:hover {
+     color:#0BBF59;
+ }
 .header-background, section{
     margin-bottom: 32px;
 }
@@ -131,6 +134,9 @@ margin-top: 90px;
     margin-bottom: 14px;
     text-decoration: none;
 }
+.portfolio-item-detail, .portfolio-item-detail:hover{
+    color:white;
+}
 
 #space{
     background-image: url(../Icons/portfolio-pictures/space.png);
@@ -158,6 +164,9 @@ margin-top: 90px;
 }
 .skill-bar{
     margin:32px 0 0 32px;
+}
+.contact_table_row{
+    display:block;
 }
 
 #js, #ph, #aj{
